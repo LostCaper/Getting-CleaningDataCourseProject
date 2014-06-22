@@ -17,13 +17,12 @@ For this project, a tidy data set called AverageVariablebySubjectActivity was cr
 The description for the data set is below:
 AverageVariablebySubjectActivity  Column Name	Original Variable	Original Source
 subject	subject	subject_test.txt subject_train.txt
-activitylabel	Activitylabel	activity_labels.txt
-Y_test.txt
+activitylabel	Activitylabel	activity_labels.txt Y_test.txt
 Y_train.txt
-"avg-tBodyAcc-mean-X"	"tBodyAcc-mean()-X"	X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Y"	 "tBodyAcc-mean()-Y"	X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Z"	 "tBodyAcc-mean()-Z"	X_test.txt and X_train.txt
-"avg-tBodyAcc-std-X"	 "tBodyAcc-std()-X"	X_test.txt and X_train.txt
+"avg-tBodyAcc-mean-X"					"tBodyAcc-mean()-X"			X_test.txt and X_train.txt
+"avg-tBodyAcc-mean-Y"	 			"tBodyAcc-mean()-Y"			X_test.txt and X_train.txt
+"avg-tBodyAcc-mean-Z"	 			"tBodyAcc-mean()-Z"			X_test.txt and X_train.txt
+"avg-tBodyAcc-std-X"	 				"tBodyAcc-std()-X"				X_test.txt and X_train.txt
 "avg-tBodyAcc-std-Y"	 "tBodyAcc-std()-Y"	X_test.txt and X_train.txt
 "avg-tBodyAcc-std-Z"	 "tBodyAcc-std()-Z"	X_test.txt and X_train.txt
 "avg-tGravityAcc-mean-X"	 "tGravityAcc-mean()-X"	X_test.txt and X_train.txt
@@ -96,238 +95,10 @@ Y_train.txt
 
 
 
-AverageVariablebySubjectActivity  Column Name
-Original Variable
-Original Source
-subject
-subject
-subject_test.txt subject_train.txt
-activitylabel
-Activitylabel
-activity_labels.txt
-Y_test.txt
-Y_train.txt
-"avg-tBodyAcc-mean-X"
-"tBodyAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Y"
- "tBodyAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Z"
- "tBodyAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-X"
- "tBodyAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Y"
- "tBodyAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Z"
- "tBodyAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-X"
- "tGravityAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Y"
- "tGravityAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Z"
- "tGravityAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-X"
- "tGravityAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Y"
- "tGravityAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Z"
- "tGravityAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-X"
- "tBodyAccJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Y"
- "tBodyAccJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Z"
- "tBodyAccJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-X"
- "tBodyAccJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Y"
- "tBodyAccJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Z"
- "tBodyAccJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-X"
- "tBodyGyro-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-Y"
- "tBodyGyro-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-Z"
- "tBodyGyro-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-X"
- "tBodyGyro-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-Y"
- "tBodyGyro-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-Z"
- "tBodyGyro-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-X"
- "tBodyGyroJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-Y"
- "tBodyGyroJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-Z"
- "tBodyGyroJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-X"
- "tBodyGyroJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-Y"
- "tBodyGyroJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-Z"
- "tBodyGyroJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccMag-mean"
- "tBodyAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyAccMag-std"
- "tBodyAccMag-std()"
-X_test.txt and X_train.txt
-"avg-tGravityAccMag-mean"
- "tGravityAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-tGravityAccMag-std"
- "tGravityAccMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerkMag-mean"
- "tBodyAccJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerkMag-std"
- "tBodyAccJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroMag-mean"
- "tBodyGyroMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroMag-std"
- "tBodyGyroMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerkMag-mean"
- "tBodyGyroJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerkMag-std"
- "tBodyGyroJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-X"
- "fBodyAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-Y"
- "fBodyAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-Z"
- "fBodyAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-X"
- "fBodyAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-Y"
- "fBodyAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-Z"
- "fBodyAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-X"
- "fBodyAccJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-Y"
- "fBodyAccJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-Z"
- "fBodyAccJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-X"
- "fBodyAccJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-Y"
- "fBodyAccJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-Z"
- "fBodyAccJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-X"
- "fBodyGyro-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-Y"
- "fBodyGyro-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-Z"
- "fBodyGyro-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-X"
- "fBodyGyro-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-Y"
- "fBodyGyro-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-Z"
- "fBodyGyro-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccMag-mean"
- "fBodyAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyAccMag-std"
- "fBodyAccMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyAccJerkMag-mean"
- "fBodyBodyAccJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyAccJerkMag-std"
- "fBodyBodyAccJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroMag-mean"
- "fBodyBodyGyroMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroMag-std"
- "fBodyBodyGyroMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroJerkMag-mean"
- "fBodyBodyGyroJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroJerkMag-std"
- "fBodyBodyGyroJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-angle(tBodyAccMeangravity)"
- "angle(tBodyAccMean gravity)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyAccJerkMean)gravityMean)"
- "angle(tBodyAccJerkMean) gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyGyroMean,gravityMean)"
- "angle(tBodyGyroMean, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyGyroJerkMean,gravityMean)"
- "angle(tBodyGyroJerkMean, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(X,gravityMean)"
- "angle(X, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(Y,gravityMean)"
- "angle(Y, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(Z,gravityMean))"
- "angle(Z, gravityMean)")
-X_test.txt and X_train.txt
 
-Summary of Choices
+
+##Summary of Choices
+
 The following files were part of the source dataset:
 * README.txt
 * features_info.txt
@@ -342,7 +113,9 @@ The following files were part of the source dataset:
 * total_acc_x_train.txt
 * total_acc_z_train.txt
 * body_acc_x_train.txt
+
 As per the forum (https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the files contained under Inertial Signals were not included.  
+
 The following files were used for the project:
 * features_info.txt
 * features.txt
@@ -353,8 +126,10 @@ The following files were used for the project:
 * y_test.txt
 * subject_train.txt
 * subject_train.txt
+
 The subject_train.txt and subject_train.txt files were assumed to be the subject’s identifier.  As it was not stated in the documentation, it was also assumed Subject 1 in one file was the same person as Subject 1 in the other file.  
 The y_train.txt and y_test.txt files were assumed to correspond to the activities that were being measured.  There were 6 possible values in these files so it was assumed the number corresponded to the number and activity description in activity-labels.txt.  
+
 The number of rows in features.txt was the same as the number of columns in X_train.txt and X_test.txt.  It was assumed the values in features.txt were the column names.  It was also assumed they were in the same order.   
 The features_info.txt to understand the meaning of the variables.
 Finally, the number of rows in X_train.txt, y_train.txt and subject_train.txt were equal and it was assumed they corresponded in order.  The same was done for the test files.
