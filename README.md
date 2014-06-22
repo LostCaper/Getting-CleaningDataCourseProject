@@ -3,7 +3,9 @@ Getting and Cleaning Data Course Project
 
 This repository contains the required information for the Getting and Cleaning Data Course Project. 
 *codebook.md - describes in detail the development of the r script
+
 *run_analysis.md  - the R script without any documentation
+
 *README.md - the instructions for the project and the step by step for the R script
 
 
