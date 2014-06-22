@@ -19,26 +19,26 @@ The description for the data set is below:
 AverageVariablebySubjectActivity| 		Original Variable|					Original Source
 --------------------------------|----------------------|---------------------------
 subject|															subject|										subject_test.txt subject_train.txt
-activitylabel												Activitylabel							activity_labels.txt Y_test.txt
-"avg-tBodyAcc-mean-X"								"tBodyAcc-mean()-X"				X_test.txt and X_train.txt
+activitylabel|												Activitylabel|							activity_labels.txt Y_test.txt
+"avg-tBodyAcc-mean-X"|								"tBodyAcc-mean()-X"|				X_test.txt and X_train.txt
+"avg-tBodyAcc-mean-Y"|	 			"tBodyAcc-mean()-Y"|			X_test.txt and X_train.txt
+"avg-tBodyAcc-mean-Z"|	 			"tBodyAcc-mean()-Z"|			X_test.txt and X_train.txt
+"avg-tBodyAcc-std-X"|	 				"tBodyAcc-std()-X"|				X_test.txt and X_train.txt
+"avg-tBodyAcc-std-Y"|	 "tBodyAcc-std()-Y"|	X_test.txt and X_train.txt
+"avg-tBodyAcc-std-Z"|	 "tBodyAcc-std()-Z"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-mean-X"|	 "tGravityAcc-mean()-X"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-mean-Y"|	 "tGravityAcc-mean()-Y"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-mean-Z"|	 "tGravityAcc-mean()-Z"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-std-X"|	 "tGravityAcc-std()-X"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-std-Y"|	 "tGravityAcc-std()-Y"|	X_test.txt and X_train.txt
+"avg-tGravityAcc-std-Z"|	 "tGravityAcc-std()-Z"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-mean-X"|	 "tBodyAccJerk-mean()-X"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-mean-Y"|	 "tBodyAccJerk-mean()-Y"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-mean-Z"|	 "tBodyAccJerk-mean()-Z"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-std-X"|	 "tBodyAccJerk-std()-X"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-std-Y"|	 "tBodyAccJerk-std()-Y"|	X_test.txt and X_train.txt
+"avg-tBodyAccJerk-std-Z"|	 "tBodyAccJerk-std()-Z"|	X_test.txt and X_train.txt
 
-"avg-tBodyAcc-mean-Y"	 			"tBodyAcc-mean()-Y"			X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Z"	 			"tBodyAcc-mean()-Z"			X_test.txt and X_train.txt
-"avg-tBodyAcc-std-X"	 				"tBodyAcc-std()-X"				X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Y"	 "tBodyAcc-std()-Y"	X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Z"	 "tBodyAcc-std()-Z"	X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-X"	 "tGravityAcc-mean()-X"	X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Y"	 "tGravityAcc-mean()-Y"	X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Z"	 "tGravityAcc-mean()-Z"	X_test.txt and X_train.txt
-"avg-tGravityAcc-std-X"	 "tGravityAcc-std()-X"	X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Y"	 "tGravityAcc-std()-Y"	X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Z"	 "tGravityAcc-std()-Z"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-X"	 "tBodyAccJerk-mean()-X"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Y"	 "tBodyAccJerk-mean()-Y"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Z"	 "tBodyAccJerk-mean()-Z"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-X"	 "tBodyAccJerk-std()-X"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Y"	 "tBodyAccJerk-std()-Y"	X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Z"	 "tBodyAccJerk-std()-Z"	X_test.txt and X_train.txt
 "avg-tBodyGyro-mean-X"	 "tBodyGyro-mean()-X"	X_test.txt and X_train.txt
 "avg-tBodyGyro-mean-Y"	 "tBodyGyro-mean()-Y"	X_test.txt and X_train.txt
 "avg-tBodyGyro-mean-Z"	 "tBodyGyro-mean()-Z"	X_test.txt and X_train.txt
