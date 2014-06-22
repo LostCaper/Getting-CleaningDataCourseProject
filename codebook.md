@@ -202,13 +202,21 @@ write.table(AverageVariablebySubjectActivity, "c:AverageVariablebySubjectActivit
 ##About the Study
 
 Data for this project comes from the following study:
+
 Human Activity Recognition Using Smartphones Dataset
+
 Version 1.0
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+
 Smartlab - Non Linear Complex Systems Laboratory
+
 DITEN - Università degli Studi di Genova.
+
 Via Opera Pia 11A, I-16145, Genoa, Italy.
+
 activityrecognition@smartlab.ws
+
 www.smartlab.ws
 
 ###Experiment
@@ -254,21 +262,21 @@ fBodyGyroJerkMag
 The set of variables that were estimated from these signals are: 
 * mean(): Mean value
 * std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+* mad(): Median absolute deviation 
+* max(): Largest value in array
+* min(): Smallest value in array
+* sma(): Signal magnitude area
+* energy(): Energy measure. Sum of the squares divided by the number of values. 
+* iqr(): Interquartile range 
+* entropy(): Signal entropy
+* arCoeff(): Autorregresion coefficients with Burg order equal to 4
+* correlation(): correlation coefficient between two signals
+* maxInds(): index of the frequency component with largest magnitude
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* skewness(): skewness of the frequency domain signal 
+* kurtosis(): kurtosis of the frequency domain signal 
+* bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 *gravityMean
@@ -286,311 +294,3 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 4. SITTING
 5. STANDING
 6. LAYING
-
-
-Column Name
-Original Variable
-Original Source
-subject
-subject
-subject_test.txt subject_train.txt
-activitylabel
-Activitylabel
-activity_labels.txt
-Y_test.txt
-Y_train.txt
-"avg-tBodyAcc-mean-X"
-"tBodyAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Y"
- "tBodyAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-mean-Z"
- "tBodyAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-X"
- "tBodyAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Y"
- "tBodyAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAcc-std-Z"
- "tBodyAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-X"
- "tGravityAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Y"
- "tGravityAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-mean-Z"
- "tGravityAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-X"
- "tGravityAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Y"
- "tGravityAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-tGravityAcc-std-Z"
- "tGravityAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-X"
- "tBodyAccJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Y"
- "tBodyAccJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-mean-Z"
- "tBodyAccJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-X"
- "tBodyAccJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Y"
- "tBodyAccJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerk-std-Z"
- "tBodyAccJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-X"
- "tBodyGyro-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-Y"
- "tBodyGyro-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-mean-Z"
- "tBodyGyro-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-X"
- "tBodyGyro-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-Y"
- "tBodyGyro-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyro-std-Z"
- "tBodyGyro-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-X"
- "tBodyGyroJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-Y"
- "tBodyGyroJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-mean-Z"
- "tBodyGyroJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-X"
- "tBodyGyroJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-Y"
- "tBodyGyroJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerk-std-Z"
- "tBodyGyroJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-tBodyAccMag-mean"
- "tBodyAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyAccMag-std"
- "tBodyAccMag-std()"
-X_test.txt and X_train.txt
-"avg-tGravityAccMag-mean"
- "tGravityAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-tGravityAccMag-std"
- "tGravityAccMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerkMag-mean"
- "tBodyAccJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyAccJerkMag-std"
- "tBodyAccJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroMag-mean"
- "tBodyGyroMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroMag-std"
- "tBodyGyroMag-std()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerkMag-mean"
- "tBodyGyroJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-tBodyGyroJerkMag-std"
- "tBodyGyroJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-X"
- "fBodyAcc-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-Y"
- "fBodyAcc-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-mean-Z"
- "fBodyAcc-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-X"
- "fBodyAcc-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-Y"
- "fBodyAcc-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAcc-std-Z"
- "fBodyAcc-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-X"
- "fBodyAccJerk-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-Y"
- "fBodyAccJerk-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-mean-Z"
- "fBodyAccJerk-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-X"
- "fBodyAccJerk-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-Y"
- "fBodyAccJerk-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyAccJerk-std-Z"
- "fBodyAccJerk-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-X"
- "fBodyGyro-mean()-X"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-Y"
- "fBodyGyro-mean()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-mean-Z"
- "fBodyGyro-mean()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-X"
- "fBodyGyro-std()-X"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-Y"
- "fBodyGyro-std()-Y"
-X_test.txt and X_train.txt
-"avg-fBodyGyro-std-Z"
- "fBodyGyro-std()-Z"
-X_test.txt and X_train.txt
-"avg-fBodyAccMag-mean"
- "fBodyAccMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyAccMag-std"
- "fBodyAccMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyAccJerkMag-mean"
- "fBodyBodyAccJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyAccJerkMag-std"
- "fBodyBodyAccJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroMag-mean"
- "fBodyBodyGyroMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroMag-std"
- "fBodyBodyGyroMag-std()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroJerkMag-mean"
- "fBodyBodyGyroJerkMag-mean()"
-X_test.txt and X_train.txt
-"avg-fBodyBodyGyroJerkMag-std"
- "fBodyBodyGyroJerkMag-std()"
-X_test.txt and X_train.txt
-"avg-angle(tBodyAccMeangravity)"
- "angle(tBodyAccMean gravity)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyAccJerkMean)gravityMean)"
- "angle(tBodyAccJerkMean) gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyGyroMean,gravityMean)"
- "angle(tBodyGyroMean, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(tBodyGyroJerkMean,gravityMean)"
- "angle(tBodyGyroJerkMean, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(X,gravityMean)"
- "angle(X, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(Y,gravityMean)"
- "angle(Y, gravityMean)"
-X_test.txt and X_train.txt
-"avg-angle(Z,gravityMean))"
- "angle(Z, gravityMean)")
-X_test.txt and X_train.txt
-
-
-"avg-tBodyAcc-mean-X"
-"avg-tBodyAcc-mean-Y"
-"avg-tBodyAcc-mean-Z"
-"avg-tBodyAcc-std-X"
-"avg-tBodyAcc-std-Y"
-"avg-tBodyAcc-std-Z"
-"avg-tGravityAcc-mean-X"
-"avg-tGravityAcc-mean-Y"
-"avg-tGravityAcc-mean-Z"
-"avg-tGravityAcc-std-X"
-"avg-tGravityAcc-std-Y"
-"avg-tGravityAcc-std-Z"
-"avg-tBodyAccJerk-mean-X"
-"avg-tBodyAccJerk-mean-Y"
-"avg-tBodyAccJerk-mean-Z"
-"avg-tBodyAccJerk-std-X"
-"avg-tBodyAccJerk-std-Y"
-"avg-tBodyAccJerk-std-Z"
-"avg-tBodyGyro-mean-X"
-"avg-tBodyGyro-mean-Y"
-"avg-tBodyGyro-mean-Z"
-"avg-tBodyGyro-std-X"
-"avg-tBodyGyro-std-Y"
-"avg-tBodyGyro-std-Z"
-"avg-tBodyGyroJerk-mean-X"
-"avg-tBodyGyroJerk-mean-Y"
-"avg-tBodyGyroJerk-mean-Z"
-"avg-tBodyGyroJerk-std-X"
-"avg-tBodyGyroJerk-std-Y"
-"avg-tBodyGyroJerk-std-Z"
-"avg-tBodyAccMag-mean"
-"avg-tBodyAccMag-std"
-"avg-tGravityAccMag-mean"
-"avg-tGravityAccMag-std"
-"avg-tBodyAccJerkMag-mean"
-"avg-tBodyAccJerkMag-std"
-"avg-tBodyGyroMag-mean"
-"avg-tBodyGyroMag-std"
-"avg-tBodyGyroJerkMag-mean"
-"avg-tBodyGyroJerkMag-std"
-"avg-fBodyAcc-mean-X"
-"avg-fBodyAcc-mean-Y"
-"avg-fBodyAcc-mean-Z"
-"avg-fBodyAcc-std-X"
-"avg-fBodyAcc-std-Y"
-"avg-fBodyAcc-std-Z"
-"avg-fBodyAccJerk-mean-X"
-"avg-fBodyAccJerk-mean-Y"
-"avg-fBodyAccJerk-mean-Z"
-"avg-fBodyAccJerk-std-X"
-"avg-fBodyAccJerk-std-Y"
-"avg-fBodyAccJerk-std-Z"
-"avg-fBodyGyro-mean-X"
-"avg-fBodyGyro-mean-Y"
-"avg-fBodyGyro-mean-Z"
-"avg-fBodyGyro-std-X"
-"avg-fBodyGyro-std-Y"
-"avg-fBodyGyro-std-Z"
-"avg-fBodyAccMag-mean"
-"avg-fBodyAccMag-std"
-"avg-fBodyBodyAccJerkMag-mean"
-"avg-fBodyBodyAccJerkMag-std"
-"avg-fBodyBodyGyroMag-mean"
-"avg-fBodyBodyGyroMag-std"
-"avg-fBodyBodyGyroJerkMag-mean"
-"avg-fBodyBodyGyroJerkMag-std"
-"avg-angle(tBodyAccMeangravity)"
-"avg-angle(tBodyAccJerkMean)gravityMean)"
-"avg-angle(tBodyGyroMean,gravityMean)"
-"avg-angle(tBodyGyroJerkMean,gravityMean)"
-"avg-angle(X,gravityMean)"
-"avg-angle(Y,gravityMean)"
-"avg-angle(Z,gravityMean))"
-
