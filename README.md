@@ -26,12 +26,12 @@ setwd("C:/Users/gmacmaster/Documents/R_Project/GettingCleaningDataAssignment/UCI
 features<-read.table("./features.txt")
 activity<-read.table("./activity_labels.txt")
 
-#Step 4: Read in the Test files as objects
+###Step 4: Read in the Test files as objects
 subject_test<-read.table("./test/subject_test.txt")
 x_test<-read.table("./test/X_test.txt")
 y_test<-read.table("./test/Y_test.txt")
 
-#Step 5: Read in the Train files as objects
+###Step 5: Read in the Train files as objects
 subject_train<-read.table("./train/subject_train.txt")
 x_train<-read.table("./train/X_train.txt")
 y_train<-read.table("./train/Y_train.txt")
@@ -45,7 +45,7 @@ y_consol<-rbind(y_test,y_train)
 ###Step 7: Combine the three consolidated tables created in Step 6.  the number of rows in X_train.txt, y_train.txt and subject_train.txt were equal and it was assumed they corresponded in order.  The same was done for the test files. 
 dat_comb<-cbind(subject_consol,y_consol,x_consol)
 
-#Step 8.  Add column names to the tables created in Step 7. The first column was the subject number.  y_consol was assumed to be the activities as it had 6 values which correspond to the 6 activities in activity_labels.txt.  It was assumed the values in features.txt were the variable names for the in X_train.txt and X_test.txt.
+###Step 8.  Add column names to the tables created in Step 7. The first column was the subject number.  y_consol was assumed to be the activities as it had 6 values which correspond to the 6 activities in activity_labels.txt.  It was assumed the values in features.txt were the variable names for the in X_train.txt and X_test.txt.
 colnames(dat_comb) <- c("subject", "activity","tBodyAcc-mean()-X",
                         "tBodyAcc-mean()-Y",
                         "tBodyAcc-mean()-Z",
