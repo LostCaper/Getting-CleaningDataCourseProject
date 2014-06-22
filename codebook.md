@@ -15,11 +15,12 @@ The study was about data collected from smartphones to examine aspects of wearab
 For this project, a tidy data set called AverageVariablebySubjectActivity was created.  It contains the average of each variable measured, grouped by subject and activity label.  The data set was to only contain the mean and standard deviation variables.  The study designated mean measures with the word “mean” and standard deviation with “std” in the column name.  
 
 The description for the data set is below:
-AverageVariablebySubjectActivity  Column Name	Original Variable	Original Source
-subject	subject	subject_test.txt subject_train.txt
-activitylabel	Activitylabel	activity_labels.txt Y_test.txt
-Y_train.txt
-"avg-tBodyAcc-mean-X"					"tBodyAcc-mean()-X"			X_test.txt and X_train.txt
+
+AverageVariablebySubjectActivity 		Original Variable					Original Source
+subject															subject										subject_test.txt subject_train.txt
+activitylabel												Activitylabel							activity_labels.txt Y_test.txt
+"avg-tBodyAcc-mean-X"								"tBodyAcc-mean()-X"				X_test.txt and X_train.txt
+
 "avg-tBodyAcc-mean-Y"	 			"tBodyAcc-mean()-Y"			X_test.txt and X_train.txt
 "avg-tBodyAcc-mean-Z"	 			"tBodyAcc-mean()-Z"			X_test.txt and X_train.txt
 "avg-tBodyAcc-std-X"	 				"tBodyAcc-std()-X"				X_test.txt and X_train.txt
